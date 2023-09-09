@@ -22,10 +22,12 @@ contract PublicSeed {
 
     // different functionalities/operations
 
-    function createCampaign(address _owner,string memory _title,string memory _description,uint256 _target,uint256 _deadline,string memory _image) public returns (uint256) {}
+    function createCampaign(address _owner,string memory _title,string memory _description,uint256 _target,uint256 _deadline,string memory _image) public returns (uint256) {
+        
+    }
     
 
-    function donateToCampaign() {}
+    function donateToCampaign() public {}
 
     function getDonators() {}
 
