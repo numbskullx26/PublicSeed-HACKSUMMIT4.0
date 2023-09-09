@@ -32,5 +32,6 @@ contract PublicSeed {
     function getDonators() {}
 
     function getCampaigns() {}
+    function get
 
 }
